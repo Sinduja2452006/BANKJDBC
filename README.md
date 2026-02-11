@@ -14,4 +14,6 @@ Perform money transfer between accounts.
 Automatically update account balances.
 Maintain transaction history.
 Use SQL JOIN queries to view complete transfer details with customer information.
+
+
 <img width="300" height="162" alt="image" src="https://github.com/user-attachments/assets/4dfd4223-2566-4a28-9e18-c925216324b4" />
