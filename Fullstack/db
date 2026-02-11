@@ -1,0 +1,21 @@
+Create table Account_Tb(
+Account_number varchar2(10) PRIMARY KEY ,
+Customer_name varchar2(15),
+Balance Number(10,2)
+);
+Insert into Account_Tb(Account_number,Customer_name,Balance)
+Values('1234567890','Reddy',80000);
+Insert into Account_Tb(Account_number,Customer_name,Balance)
+Values('1234567891','Mahesh',0);
+Insert into Account_Tb(Account_number,Customer_name,Balance)
+Values('1234567892',Dhanu',100);
+Insert into Account_Tb(Account_number,Customer_name,Balance)
+Values('1234567893',sam',500);
+
+create table TRANSFER_TBL(
+Transaction_ID Number(4) PRIMARY KEY,
+Account_Number varchar2(10) FOREIGN KEY refernce(Account Number),
+Beneficiary_account_number varchar2(10) FOREIGN KEY reference (Acount_Number),
+Transaction_Date Date,
+Transaction_Amount Number(10,2)
+);  
